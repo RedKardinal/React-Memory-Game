@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #222;
+  height: 80px;
+  padding: 40px;
+  color: white;
+}
+.App-title {
+  font-size: 70px;
+  font-family: standard;
+}
+.App-intro {
+  font-size: large;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+h3 {
+  font-family: standard;
+}
+body {
+  background-color: #2196F3;
+  background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
+  radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
+  radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
+  background-size: 110px 200px;
+  background-repeat: repeat-x;
+  margin-bottom: 20px;
+}
+@font-face {
+  font-family: standard;
+  src: url(Extra.ttf);
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  background:
+  radial-gradient(black 3px, transparent 4px),
+  radial-gradient(black 3px, transparent 4px),
+  linear-gradient(#fff 4px, transparent 0),
+  linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+  linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+  #fff;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-text {
+  height: 120px;
+  width: 120px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  font-size: 20px;
+  text-align: center;
+  overflow: break-word;
+  margin-left: 190px;
+}
+.button {
+    -moz-box-shadow: 3px 4px 0px 0px #899599;
+    -webkit-box-shadow: 3px 4px 0px 0px #899599;
+    box-shadow: 3px 4px 0px 0px #899599;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #bab1ba));
+    background:-moz-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+    background:-webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+    background:-o-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+    background:-ms-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+    background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#bab1ba',GradientType=0);
+    background-color:#ededed;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:12px;
+    border:1px solid #d6bcd6;
+    display:inline-block;
+    cursor:pointer;
+    color:#000000;
+    font-family:Arial;
+    font-size:15px;
+    padding:6px 20px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #e1e2ed;
+}
+
+.button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bab1ba), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab1ba', endColorstr='#ededed',GradientType=0);
+  background-color:#bab1ba;
+}
